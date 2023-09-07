@@ -1,122 +1,75 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #eeeeee;
+    background-color: #EEEEEE;
+    padding: 0;
     margin: 0;
-}
-
-.diagonalBox {
-    position: absolute;
-    top: -150px;
-    margin: 0;
-    z-index: -5;
-    transform: skewY(-11deg);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    width: 100vw;
-    height: 500px;
-    background-image: linear-gradient(45deg, #2d0ca1, #3cf5c7);
-}
-
-.diagonalBox > div:nth-child(1) {
-    grid-column: 1;
-    grid-row: 4;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.3));
-}
-
-.diagonalBox > div:nth-child(2) {
-    grid-column: 3;
-    grid-row: 1 / 4;
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
-}
-
-.diagonalBox > div:nth-child(3) {
-    grid-column: 2 / 4;
-    grid-row: 4;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.1));
-}
-
-main {
-    max-width: 920px;
-    margin: 0 auto;
-}
-
-main > * {
-    margin: 40px 0;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1080px;
-    margin: 30px auto;
+    background-color: #FBFBFB;
 }
 
 #logo {
-    float: left;
-    font-size: x-large;
-    font-weight: bolder;
+    display: block;
+    height: 80px;
+    padding: 50px;
+    margin: auto;
 }
 
-#logo > a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, .7);
+#name {
+    display: block;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    margin: 50px auto;
 }
 
-nav {
-    width: 300px;
+#headshot {
+    display: block;
+    width: 400px;
+    margin: auto;
+    filter: grayscale(100%);
 }
 
-ul {
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none; 
-    padding: 0 30px;
+.project {
+    display: block;
+    width: 1000px;
+    margin: 50px auto;
+    padding: 100px 0;
+    border-radius: 20px;
+    background-color: #FBFBFB;
 }
 
-nav > ul > li {
-    margin: 0;
-    padding: 5px;
-    font-weight: bold;
-    color: rgba(255, 255, 255, .7);
-}
-
-nav > ul > li:hover {
-    cursor: pointer;
-    color: #eee;
-    border-radius: 3px;
-}
-
-#contactBtn {
-    border: none;
-    color: black;
-    border-radius: 100px;
-    padding: 10px 15px;
-    font-weight: medium;
-    font-size: small;
-    transition: background .1s ease-in;
-    background: rgba(255, 255, 255, 0.2);
-}
-
-#contactBtn:hover {
-    cursor: pointer;
-    transition: background .1s ease-in;
-    background: rgba(255, 255, 255, 0.5);
-}
-
-.pageTitle {
-    margin: 50px 0 0 0;
-    color: rgba(255, 255, 255, .7);
+.project > h2 {
+    display: block;
+    font-family: 'Montserrat';
+    font-weight: 700;
     font-size: 50px;
+    text-align: center;
+    width: 700px;
+    margin: 20px auto;
 }
 
-article {
-    display: flex;
+.project > h3 {
+    display: block;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-align: center;
+    width: 700px;
+    margin: 20px auto;
 }
 
-article > * {
-    margin: 10px;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, .4);
+.project > button {
+    display: block;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    height: 70px;
+    width: 200px;
+    color: #FBFBFB;
+    background-color: black;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 70px;
 }
