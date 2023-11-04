@@ -3,10 +3,6 @@ body {
     margin: 200px 0;
 }
 
-header {
-    background-color: #FBFBFB;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -37,13 +33,22 @@ main {
     color: black;
 }
 
-#name {
+header {
     display: block;
-    font-family: 'Montserrat';
-    font-size: 40px;
-    text-align: center;
     width: 100%;
-    margin: 50px auto;
+    margin: 200px auto;
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+header > h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
 }
 
 #headshot {
