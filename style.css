@@ -1,7 +1,6 @@
 body {
     background-color: #FFFFFF;
-    padding: 50px 0;
-    margin: 0;
+    margin: 200px 0;
 }
 
 header {
@@ -12,10 +11,16 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 0 10%;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
 }
 
 main {
-    padding: 50px 250px;
+    display: block;
+    width: 1000px;
+    margin: 50px auto;
 }
 
 * {
@@ -111,7 +116,7 @@ button:hover {
 
 .article-title {
     font-size: 65px;
-    padding: 0 25% 0 0;
+    padding: 0 10% 0 0;
 }
 
 .article-subtitle {
@@ -125,6 +130,17 @@ button:hover {
 
 #aub-subtitle {
     margin-bottom: 0;
+}
+
+.article-section {
+    font-weight: 600;
+    font-size: 40px;
+    margin: 80px 0 30px 0;
+}
+
+.article-text {
+    font-size: 20px;
+    line-height: 130%;
 }
 
 #lego {
