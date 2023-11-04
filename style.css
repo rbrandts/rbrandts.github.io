@@ -1,18 +1,35 @@
 body {
-    background-color: #EEEEEE;
-    padding: 0;
+    background-color: #FFFFFF;
+    padding: 50px 0;
     margin: 0;
 }
 
 header {
     background-color: #FBFBFB;
-    padding: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+main {
+    padding: 50px 250px;
+}
+
+* {
+    font-family: 'Montserrat';
 }
 
 #logo {
-    display: block;
-    height: 80px;
-    margin: auto;
+    height: 60px;
+}
+
+#about {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: black;
 }
 
 #name {
@@ -37,9 +54,9 @@ a:link {
 
 .project {
     display: block;
-    width: 1000px;
+    width: 800px;
     margin: 50px auto;
-    padding: 100px 0;
+    padding: 50px 0;
     border-radius: 20px;
     background-color: #FBFBFB;
     transition: .1s;
@@ -74,14 +91,40 @@ a:link {
     width: 200px;
     color: #FBFBFB;
     background-color: black;
-    margin: 30px auto;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 70px;
     border: none;
 }
 
 .project:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.project-type {
+    font-weight: 500;
+}
+
+.article-title {
+    font-size: 65px;
+    padding: 0 25% 0 0;
+}
+
+.article-subtitle {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.article-image {
+    width: 100%;
+}
+
+#aub-subtitle {
+    margin-bottom: 0;
 }
 
 #lego {
