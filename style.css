@@ -1,5 +1,5 @@
 body {
-    background-color: #e6e6e6;
+    background-color: #ffffff;
     margin: 200px 0;
 }
 
@@ -140,12 +140,22 @@ button:hover {
 .article-section {
     font-weight: 600;
     font-size: 40px;
-    margin: 80px 0 30px 0;
+    margin: 60px 0 20px 0;
 }
 
 .article-text {
     font-size: 20px;
     line-height: 130%;
+}
+
+.article>h5 {
+    font-size: 20px;
+    line-height: 100%;
+    margin: 20px 0px 0px 0px;
+}
+
+.article>p {
+    font-size: 16px;
 }
 
 #lego {
