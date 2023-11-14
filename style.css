@@ -1,5 +1,5 @@
 body {
-    background-color: #FFFFFF;
+    background-color: #e6e6e6;
     margin: 200px 0;
 }
 
@@ -15,7 +15,7 @@ nav {
 
 main {
     display: block;
-    width: 1000px;
+    width: 800px;
     margin: 50px auto;
 }
 
@@ -64,7 +64,6 @@ a:link {
 
 .project {
     display: block;
-    width: 800px;
     margin: 50px auto;
     padding: 50px 0;
     border-radius: 20px;
@@ -130,7 +129,8 @@ button:hover {
 }
 
 .article-image {
-    width: 100%;
+    display: block;
+    margin: auto;
 }
 
 #aub-subtitle {
@@ -149,13 +149,19 @@ button:hover {
 }
 
 #lego {
-    background-color: #FBFBFB;
-    color: black;
+    background-image: url('images/lego-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.project:hover {
+    cursor: pointer;
 }
 
 #aub {
-    background-color: #27225b;
-    color: #FBFBFB;
+    background-image: url(images/aub-bg.png);
+    background-size: cover;
+    background-position: center;
 }
 
 #aub > h2 {
@@ -166,11 +172,19 @@ button:hover {
     width: 500px;
 }
 
-#aub > button {
-    background-color:rgba(251, 251, 251, .2);
-    color: #FBFBFB;
+.project > button {
+    background-color:rgba(0, 0, 0, .8);
 }
 
-#aub > button:hover {
-    background-color:rgba(251, 251, 251, .3);
+.project > button:hover {
+    background-color:rgba(30, 30, 30, .8);
+}
+
+.half-width {
+    width: 50%;
+}
+
+.pdf-link {
+    text-decoration: underline !important;
+    color: black;
 }
