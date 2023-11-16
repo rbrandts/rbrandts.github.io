@@ -20,36 +20,59 @@
 
             <h4 class="article-section">Context</h4>
             <p>In the last year of my master’s degree, from fall of 2022, until summer of 2023, I wrote my thesis in collaboration with LEGO House, an indoor experience center in Billund, Denmark. This project was conducted in partnership with a classmate at Aalborg University, with help from our supervisor. LEGO House reached out to us with a research project proposal, studying how a tangible user interface (TUI) could be used to promote learning through play. The basis of this play was an existing card game which challenged children’s and adults’ knowledge of LEGO and world history since LEGO's founding. Our challenge was to explore how transferring the core of this play experience to a TUI would affect it, and what design choices had to be made when making this transition.</p>
+            <img src="../images/lego_setup.jpg" class="article-image half-width" alt="">
 
             <h4 class="article-section">The Challenge</h4>
-            <p></p>
-            <h5>Designing for a tangible tabletop</h5>
-            <p></p>
-            <h5>Capturing engagement</h5>
-            <p></p>
-            <h5>Considering the context</h5>
-            <p></p>
+            <p>As the aim of this project was to conduct research into the use of tangible tabletops as tools for learning through play, there were many challenges concerning the development of a thesis. This article, however, will mainly focus on the challenges and activities related to designing and developing the prototype which served as the research platform to achieve our empirical data. In terms of this process, there were three major challenges to overcome:</p>
+            <h5>Design for a tangible tabletop</h5>
+            <p>The play experience our design took inspiration from was an existing card game. Simply transferring this game to a tangible tabletop would diminish it, and would also not capitalize on the strengths that the technology could bring. Therefore, it was up to us to identify the core experience of the card game, and create a new type of play which captured this, while making the most of the medium.</p>
+            <h5>Capture engagement</h5>
+            <p>In an experience center filled with sources of entertainment, and installations to capture visitors’ attention, the experience would have to be engaging. Learning can only happen when one is actively engaged, and invested in the experience. Therefore, another challenge that faced us was how best to engage all players, children and adults alike. Play offers many opportunities for engagement, but which worked best for our case would have to be explored.</p>
+            <h5>Consider the context</h5>
+            <p>We are designing for an experience center, where visitors come to learn through play, specifically through tangible, multisensory experiences. While our experience should excite and surprise, part of the challenge is also to find a way to align with LEGO House’s larger goal for their visitors.</p>
             
             <h4 class="article-section">My Role</h4>
+            <p>As I wrote my master’s thesis in partnership with a classmate, many of the tasks involved were shared. We worked in very close collaboration, but I will highlight the areas I had a majority of the responsibility, or provided significant individual contributions. I will describe my role throughout four stages of the project: Initial exploration, ideation, designing the experience, and developing the prototype.</p>
+            <!-- <p>Throughout the course of the project, there were also a number of different methods and tools that I used. Some of these were used throughout the design processes, and some to address a specific challenge. Below, the mostly commonly used methods and tools are listed:</p>
+            <img src="" alt="The methods and tools used in this project"> -->
             <h5>Initial exploration</h5>
-            <p></p>
+            <p>The first step in this project was to explore the problem space. This initial exploration involved two visits to LEGO House, in order to speak to our collaborators, gain an understanding of the experience they are trying to deliver, and to see the specific context which we would be designing for. This initial stage gave us the first seeds of ideas, and also set the framework for continued work.</p>
+            <p>Part of this initial exploration was also becoming intimate with the card game which would serve as the inspiration for our own play experience. We started by understanding the rules, and playing the game amongst ourselves. This was followed by watching our peers play, taking note of how they worked together, or against each other. Finally, we conducted a workshop at a library, where we invited children and families to play the game, while we observed. It was in this workshop we identified some of the collaborative dynamics between children and their parents which would inform much of our future development.</p>
             <h5>Ideation</h5>
-            <p></p>
+            <p>After initial exploration, and aligning with our collaborators at LEGO House, as well as our supervisor, on which aspects of the play experience are most crucial, we began ideating. The goal of this ideation process was not to present an idea of a final system which could stand at LEGO House. Rather, the goal was to identify the minimum viable experience, an experience with everything but the play at the center stripped away. The process to find this required several rounds of brainstorming, sketching, paper prototyping using the existing cards, and small user tests with peers. The result of the process, however, was an idea utilizing the tangibility of a TUI, while incorporating the card game’s central play loop of being presented with an event, discussing its placement on a timeline with your teammates, and the reveal of whether or not you guessed correctly.</p>
+            <div class="article-flexbox article-image two-thirds-width">
+                <img class="article-image horizontal-image" src="../images/lego_lazysusan.jpg" alt="Lazy susan inspired paper prototype">
+                <img class="article-image" src="../images/lego_paper_prototype.jpg" alt="">
+            </div>
             <h5>Designing the experience</h5>
-            <p></p>
+            <p>After gaining a basic idea of the experience we wanted to deliver, we then had to design the specifics of users’ interactions. Our design process was iterative, with each iteration bookended by a play study at LEGO House, evaluating the prototype. Much of the design work involved secondary and primary research on how children and adults interact during play, and how we can cater to that. It also became clear to us that spontaneity played a large factor in play, and we should expect the unexpected, and allow for it in our experience.</p>
+            <div class="article-image article-flexbox two-thirds-width">
+                <img class="article-image" src="../images/lego_sketches_1.jpg" alt="">
+                <img class="article-image" src="../images/lego_sketches_2.jpg" alt="">
+            </div>
+            <p>More practically, the design process involved making user journeys of potential visitors, sketching the system in different scenarios and states, thinking through how it should react to different interactions, and creating high-fidelity UI and graphics in Figma.</p>
             <h5>Developing the prototype</h5>
-            <p></p>
+            <p>The development of the prototype was done collaboratively, using C# in Unity, as well as GitHub. The details of how the tangible tabletop communicated with Unity running on a separate PC was a complex challenge. Eventually we got it to work, so both devices could send and receive data to each other. Notable features I developed included the selection menu, how the river bends as tokens are moved, and how new events are generated from a database when new tokens are added to the board.</p>
+            <img class="article-image two-thirds-width" src="../images/lego_interaction_model.png" alt="">
             <h5>User Studies</h5>
-            <p></p>
+            <p>Across three user studies at LEGO House, we evaluated different versions of the prototype with a total of 66 participants, consisting of multiple groups of friends or family visiting the center on the day. My role during these play studies was partly to be a passive facilitator, providing guidance only when it was necessary, but letting players make mistakes. Additionally, I was responsible for conducting semi-structured interviews, posing questions about the visitors’ experience, and inviting them to discuss their feelings openly.</p>
+            <img class="article-image" src="../images/lego_study.png" alt="">
+            <p>Observations from these play sessions, answers given through the interview, and quantitative data logged during play served as the raw data for a content analysis of each user study. This started with highlighting each notable event that happened during the study, and iteratively grouping these events into groups, until a few categories emerged, which would guide our next iteration of prototype development.</p>
+            <img class="article-image" src="../images/lego_miro.png" alt="">
 
 
             <h4 class="article-section">The Results</h4>
             <p>After numerous iterations and three rounds of user studies at LEGO House, the prototype was finalized. The final play experience we named River of Time, to go with the theme of revitalizing a barren river basin through the correct placement of events on the timeline. The core of the experience was the circular activity of grabbing a token, considering and discussing the event tied to it, attempting to place it on the timeline, and either being wrong and rethinking the placement, or being right and grabbing another. Surrounding this core experience was an introductory screen letting players choose a difficulty level and language, a short explanation of the players’ objective in the game, and an end screen summarizing their performance with the possibility of resetting and trying again.</p>
-            <img src="" alt="Gif of start, game, and end screen">
+            <div class="article-image article-flexbox"> 
+                <img src="../images/lego_start_gif.gif" class="article-image" alt="Start menu and first placements">
+                <img src="../images/lego_end_gif.gif" class="article-image" alt="Last wrong plaement and end screen">
+            </div>
             <p>In this finalized version of the prototype, the one which was used for our third user study, the defining feature was the choice of difficulty; easy or hard. What this choice decided would be the database of possible events that tokens could represent. The harder difficulty would draw from more obscure events, and really challenge the players’ knowledge. The existence of variable difficulty levels let anyone participate. Groups with younger children could find excitement in recognizing events, and finding success through teamwork. Older visitors, or those with an intimate knowledge of LEGO history, had the possibility of challenging themselves, and being faced with difficult discussions and choices.</p>
-            <img src="" alt="Two pictures: intro screen, and side-by-side comparison of easy and hard event">
+            <div class="article-image article-flexbox two-thirds-width">
+                <img src="../images/lego_start.png" class="article-image" alt="Two pictures: intro screen, and side-by-side comparison of easy and hard event">
+            </div>
             <p>Another defining feature of River of Time, was the goal of creating a prototype which would fit into the context it was intended for, both thematically, and in fidelity. This meant a focus on theme and polish. Each installation in LEGO House is trying to tell a story, whether that be about expressing emotion, contributing to society, or being creative. The story we wanted to tell was about working together to make the world a better place. Working together was already built into the nature of the play experience, showing how it improved the world was built into our theme.</p>
-            <img src="" alt="Before and after picture of dry to green">
+            <img src="../images/lego_timelapse.gif" class="article-image two-thirds-width" alt="Background turning green as more events are placed">
             <p>In addition to having designed and developed River of Time as a research platform to explore tangible tabletop-based play experiences, this project had three other contributions. Firstly, the empirical data which we collected during our three user studies. Secondly, an open-source toolkit for setting up a design and development environment for the particular tangible tabletop we used. And thirdly, a set of four implications for the design of tangible tabletop-based intergenerational play experiences in a museum context. These are meant to serve as the conclusive findings from the project, and should serve as a guide to future designers working in a similar domain:</p>
             <h5>#1 Adjustable difficulty accommodates wider audiences</h5>
             <p>In a museum context, people of all ages are encouraged to engage with exhibits. Adjustable difficulty allows a wider audience to have a positive and engaging play experience. Additionally, by allowing players to choose their difficulty, we found that players experienced meaningful progression.</p>
@@ -59,6 +82,8 @@
             <p>The hands-on nature of tangible tabletops can be effective at quickly teaching players how to interact. When mechanics are kept simple, and instructions are clear, players are quicker to dive into the core of the experience, where learning through play occurs.</p>
             <h5>#4 Encourage iterative play</h5>
             <p>Repeated playthroughs allow players to learn the experience, iterate on strategic approach, and achieve a sense of progression. We found that players were often excited to play again and motivated to perform even better during a second playthrough.</p>
+
+            <br><br>
             <p>Read more:</p>
             <a href="../pdfs/Pre-thesis_Rasmus_Brandt_Sørensen.pdf" class="pdf-link" target="_blank">Pre-thesis</a><br><br>
             <a href="../pdfs/Thesis_Rasmus_Brandt_Sørensen.pdf" class="pdf-link" target="_blank">Thesis</a>

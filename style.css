@@ -15,7 +15,7 @@ nav {
 
 main {
     display: block;
-    width: 800px;
+    width: 55%;
     margin: 50px auto;
 }
 
@@ -64,11 +64,12 @@ a:link {
 
 .project {
     display: block;
+    width: 800px;
     margin: 50px auto;
     padding: 50px 0;
     border-radius: 20px;
     background-color: #FBFBFB;
-    transition: .1s;
+    transition: .2s;
 }
 
 .project > h2 {
@@ -129,6 +130,7 @@ button:hover {
 }
 
 .article-image {
+    width: 100%;
     display: block;
     margin: auto;
 }
@@ -139,8 +141,8 @@ button:hover {
 
 .article-section {
     font-weight: 600;
-    font-size: 40px;
-    margin: 60px 0 20px 0;
+    font-size: 60px;
+    margin: 80px 0 20px 0;
 }
 
 .article-text {
@@ -151,17 +153,38 @@ button:hover {
 .article>h5 {
     font-size: 20px;
     line-height: 100%;
-    margin: 20px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
 }
 
 .article>p {
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.article-flexbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.horizontal-image {
+    width: 56.3%;
 }
 
 #lego {
     background-image: url('images/lego-bg.png');
     background-size: cover;
     background-position: center;
+    color: white;
+}
+
+#lego > button {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+#lego > button:hover {
+    background-color: rgba(255, 255, 255, .3);
 }
 
 .project:hover {
@@ -192,6 +215,10 @@ button:hover {
 
 .half-width {
     width: 50%;
+}
+
+.two-thirds-width {
+    width: 66%;
 }
 
 .pdf-link {
