@@ -15,7 +15,7 @@ nav {
 
 main {
     display: block;
-    width: 55%;
+    width: min(90%, 1500px);
     margin: 50px auto;
 }
 
@@ -64,7 +64,7 @@ a:link {
 
 .project {
     display: block;
-    width: 800px;
+    width: min(100%, 800px);
     margin: 50px auto;
     padding: 50px 0;
     border-radius: 20px;
@@ -73,7 +73,6 @@ a:link {
 }
 
 .project > h2 {
-    display: block;
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 50px;
@@ -83,7 +82,6 @@ a:link {
 }
 
 .project > h3 {
-    display: block;
     font-family: 'Montserrat';
     font-weight: 500;
     text-align: center;
