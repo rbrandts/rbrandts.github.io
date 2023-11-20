@@ -6,7 +6,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 10%;
+    margin: 0 5%;
     position: fixed;
     top: 50px;
     left: 0;
@@ -15,8 +15,8 @@ nav {
 
 main {
     display: block;
-    width: min(90%, 1500px);
-    margin: 50px auto;
+    width: min(70%, 1500px);
+    margin: 40px auto;
 }
 
 * {
@@ -196,7 +196,7 @@ button:hover {
 }
 
 #aub > h2 {
-    width: 450px;
+    width: min(450px);
 }
 
 #aub > h3 {
