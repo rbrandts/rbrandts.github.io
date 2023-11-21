@@ -212,11 +212,11 @@ button:hover {
 }
 
 .half-width {
-    width: 50%;
+    width: clamp(50%, 600px, 100%);
 }
 
 .two-thirds-width {
-    width: 66%;
+    width: clamp(66%, 600px, 100%);
 }
 
 .pdf-link {
